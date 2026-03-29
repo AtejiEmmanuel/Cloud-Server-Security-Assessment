@@ -175,4 +175,4 @@ This assessment was conducted in a controlled, virtualised lab environment on in
 
 ## 👤 Author
 
-**ATEJI** | Security Assessment Report
+**ATEJI** | [Security Assessment Report](https://github.com/AtejiEmmanuel/Cloud-Server-Security-Assessment/blob/main/SoftCorp%20Cloud%20Server%20Security%20Assessment.docx)
