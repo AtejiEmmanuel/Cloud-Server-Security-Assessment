@@ -154,7 +154,7 @@ Beyond the server itself, the report also outlines a security strategy for the w
 
 | File | Description |
 |------|-------------|
-| `WaecsReport_ATEJI.docx` | Full security assessment report including scan screenshots, analysis tables, implementation steps, and references |
+| `SoftCorp Cloud Server Security Assessment Report.docx` | Full security assessment report including scan screenshots, analysis tables, implementation steps, and references |
 
 ---
 
@@ -175,4 +175,4 @@ This assessment was conducted in a controlled, virtualised lab environment on in
 
 ## 👤 Author
 
-**ATEJI** | [Security Assessment Report](https://github.com/AtejiEmmanuel/Cloud-Server-Security-Assessment/blob/main/SoftCorp%20Cloud%20Server%20Security%20Assessment.docx)
+**ATEJI** | [SoftCorp Cloud Server Security Assessment Report](https://github.com/AtejiEmmanuel/Cloud-Server-Security-Assessment/blob/main/SoftCorp%20Cloud%20Server%20Security%20Assessment.docx)
