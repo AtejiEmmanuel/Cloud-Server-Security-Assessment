@@ -1,4 +1,4 @@
-# Cloud Server Security Assessment & Hardening — SoftCorp
+# Cloud Server Security Assessment & Hardening: SoftCorp
 
 > A comprehensive vulnerability assessment and security hardening report for a cloud server infrastructure, conducted in preparation for DevOps deployment.
 
@@ -6,7 +6,7 @@
 
 ## 📋 Overview
 
-This project documents the end-to-end security evaluation and hardening of SoftCorp's cloud server (Ubuntu Linux, IP: `30.30.0.100`). The assessment follows a structured methodology — scanning for vulnerabilities, analysing findings, implementing remediations, and validating results — to bring the server into alignment with industry best practices before production deployment in a DevOps environment.
+This project documents the end-to-end security evaluation and hardening of SoftCorp's cloud server (Ubuntu Linux, IP: `30.30.0.100`). The assessment follows a structured methodology: scanning for vulnerabilities, analysing findings, implementing remediations, and validating results, to bring the server into alignment with industry best practices before production deployment in a DevOps environment.
 
 The server operates under an **Infrastructure as a Service (IaaS)** model, giving SoftCorp direct control over the OS, storage, and deployed applications.
 
@@ -75,7 +75,7 @@ A total of **35 vulnerabilities** were identified across all scanners:
 - Suppressed server version disclosure via `ServerTokens Prod` and `ServerSignature Off`
 
 ### 3. Security Headers
-- Implemented **Content Security Policy (CSP)** — removed wildcard directives, `unsafe-eval`, and `unsafe-inline`
+- Implemented **Content Security Policy (CSP)**: removed wildcard directives, `unsafe-eval`, and `unsafe-inline`
 - Added **X-Frame-Options: SAMEORIGIN** to prevent clickjacking
 - Added **X-Content-Type-Options: nosniff** to prevent MIME sniffing
 
@@ -105,7 +105,7 @@ A total of **35 vulnerabilities** were identified across all scanners:
 - Generated and configured **SSH key pairs** for authentication
 
 ### 10. Network Security
-- Configured **UFW firewall** — only SSH, HTTP, and HTTPS traffic permitted
+- Configured **UFW firewall**: only SSH, HTTP, and HTTPS traffic permitted
 - Blocked ICMP timestamp requests
 - Installed and enabled **Fail2Ban** to prevent brute-force attacks
 - Configured **AppArmor** for application-level access control
@@ -131,7 +131,7 @@ Post-remediation scans confirmed:
 - ✅ phpinfo file removed
 - ✅ jQuery updated
 - ✅ Server version information no longer leaked
-- ⚠️ **Anti-CSRF token protection** — remains an open item for future development
+- ⚠️ **Anti-CSRF token protection**: remains an open item for future development
 
 ---
 
@@ -161,9 +161,9 @@ Beyond the server itself, the report also outlines a security strategy for the w
 ## 📚 Standards & Frameworks Referenced
 
 - NIST Cloud Computing Security Reference Architecture (SP 500-299)
-- Cloud Security Alliance — Cloud Controls Matrix (CCM)
+- Cloud Security Alliance: Cloud Controls Matrix (CCM)
 - OWASP Top 10 & ModSecurity Core Rule Set
-- NIST SP 800-115 — Technical Guide to Information Security Testing
+- NIST SP 800-115: Technical Guide to Information Security Testing
 
 ---
 
@@ -175,4 +175,4 @@ This assessment was conducted in a controlled, virtualised lab environment on in
 
 ## 👤 Author
 
-**ATEJI** — Security Assessment Report
+**ATEJI** | Security Assessment Report
